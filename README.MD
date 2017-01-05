@@ -4,5 +4,7 @@ CedHead for [Joomla!](https://www.joomla.org) help you to avoid changing your te
 
 * Free
 
+![](cedhead.png)
+
 ## Documentation
 [https://www.galaxiis.com/cedhead-doc/](https://www.galaxiis.com/cedhead-doc/)
