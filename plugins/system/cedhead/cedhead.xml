@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* @package     CedLikeUs
+* @subpackage  com_cedhead
+* @copyright   Copyright (C) 2013-2016 galaxiis.com All rights reserved.
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+* @license GNU GPL v3 (http://www.gnu.org/licenses/gpl.txt)
+-->
+<extension type="plugin" version="3.0" method="upgrade" group="system">
+    <name>CedHead | Galaxiis.com</name>
+    <creationDate>2016-12-31</creationDate>
+    <version>1.2.0</version>
+
+    <author>Galaxiis</author>
+    <authorEmail>galaxiiscom@gmail.com</authorEmail>
+    <authorUrl>www.galaxiis.com</authorUrl>
+
+    <copyright>Copyright (C) 2013-2016 galaxiis.com All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL 3.0</license>
+
+    <description>PLG_SYSTEM_CEDHEAD_XML_DESCRIPTION</description>
+
+    <files>
+        <filename plugin="cedhead">cedhead.php</filename>
+        <folder>language</folder>
+		<folder>assets</folder>
+        <filename>index.html</filename>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+
+                <field name="css" type="textarea" default="" label="Css"
+                       description="Css, one file per line">
+                </field>
+
+                <field name="cssDeclaration" type="textarea" default="" label="CSS Declaration"
+                       description="CSS Declaration content.">
+                </field>
+
+                <field name="js" type="textarea" default="" label="Javascript"
+                       description="Javascript, one file per line">
+                </field>
+
+                <field name="jsDeclaration" type="textarea" default="" label="Javascript Script"
+                       description="Javascript content without script">
+                </field>
+
+                <field name="metadata" type="textarea" default="" label="Metadata"
+                       description="key,value per line">
+                </field>
+
+
+                <field name="canonical" type="text" default=""
+                       label="Canonical URL"
+                       required="false"
+                       description="In the world of content management and online shopping systems, it's common for the same content to be accessed through multiple URLs. With content syndication, it's also easy for content to be distributed to different URLs and domains entirely. See https://support.google.com/webmasters/answer/139066?hl=en"
+                       size="25"
+                        />
+
+                <field name="gprofile" type="text" default=""
+                       label="Google Profile"
+                       required="false"
+                       description="Google Profile"
+                       size="25"
+                        />
+
+                <field name="rdf" type="text" default=""
+                       label="RDF - Semantic Web Standards"
+                       required="false"
+                       description="RDF is a standard model for data interchange on the Web. RDF has features that facilitate data merging even if the underlying schemas differ, and it specifically supports the evolution of schemas over time without requiring all the data consumers to be changed. Path to File."
+                       size="50"
+                        />
+
+                <field name="gplus" type="text" default=""
+                       label="Google+ Profile"
+                       required="false"
+                       description="Google+ Profile"
+                       size="50"
+                        />
+
+            </fieldset>
+        </fields>
+    </config>
+
+    <config/>
+</extension>
