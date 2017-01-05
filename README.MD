@@ -8,3 +8,6 @@ CedHead for [Joomla!](https://www.joomla.org) help you to avoid changing your te
 
 ## Documentation
 [https://www.galaxiis.com/cedhead-doc/](https://www.galaxiis.com/cedhead-doc/)
+
+## Download
+Get the file https://github.com/cedricwalter/CedHead/raw/master/pkg_cedhead_j3x_1.2.0-free.zip and use Joomla! installer
